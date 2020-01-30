@@ -75,7 +75,7 @@ It is important to note, that the argument here is the entire row returns from "
 
 ## To read in the matches available in each competition, run:
 
-1. `matches <- get.matches(username, pasword, season_id, competition_id)`
+1. `matches <- get.matches(username, password, season_id, competition_id)`
 
 #### To read in all of the matches for various competitions.
 
@@ -110,7 +110,7 @@ Note: See documentation for additional parameters available to access different 
 #### To read in multiple lineups, run:
 
 1. `matchids <- matchesvector(username, password, season_id, competition_id)`
-2. `StatsBombLineups <- allineups(username, password, matchids, parallel = T)`
+2. `StatsBombLineups <- alllineups(username, password, matchids, parallel = T)`
 
 #### To unnest all of the lineups:
 
